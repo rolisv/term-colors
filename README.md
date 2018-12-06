@@ -2,7 +2,7 @@ Prints out 256 indexed terminal color pallete. Built with [Scala Native](https:/
 
 # Build and install
 
-The application uses [mill](https://www.lihaoyi.com/mill/index.html) build system. Install it [here](https://www.lihaoyi.com/mill/index.html#installation).
+The application uses [mill](https://www.lihaoyi.com/mill/index.html) build tool. Install it [here](https://www.lihaoyi.com/mill/index.html#installation).
 
 After that, run:
 ```bash

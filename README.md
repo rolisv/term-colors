@@ -1,4 +1,4 @@
-Prints out 256 indexed terminal color pallete. Built with [Scala Native](https://www.scala-native.org/en/latest/index.html).
+Prints out 256 indexed terminal color palette. Built with [Scala Native](https://www.scala-native.org/en/latest/index.html).
 
 # Build and install
 

@@ -18,7 +18,7 @@ Run:
 ```bash
 $ mill termcolors.upx
 ```
-to compress the application executable produced by `termcolors.nativeLink` by [upx](https://upx.github.io/).
+to compress the application executable produced by `termcolors.nativeLink` with [upx](https://upx.github.io/).
 This requires having [upx installed](https://github.com/upx/upx/releases/latest).
 
 The output is stored in `./out/termcolors/upx/dest/term-colors`.

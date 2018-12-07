@@ -6,7 +6,7 @@ The application uses [mill](https://www.lihaoyi.com/mill/index.html) build tool.
 
 After that, run:
 ```bash
-$ mill nativeLink
+$ mill termcolors.nativeLink
 ```
 
 Application executable is placed in `./out/termcolors/nativeLink/dest/out`.

@@ -7,4 +7,8 @@ object termcolors extends ScalaNativeModule {
     ivy"com.lihaoyi::fansi::0.2.5"
   )
   def releaseMode = ReleaseMode.Release
+  def upx = T {
+    os.proc("upx", "-f", "-o", "term-colors", nativeLink()).call(cwd = T.ctx().dest)
+    T.ctx().dest/"term-colors"
+  }
 }

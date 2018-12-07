@@ -11,3 +11,14 @@ $ mill termcolors.nativeLink
 
 Application executable is placed in `./out/termcolors/nativeLink/dest/out`.
 Rename and copy it somewhere on your `$PATH`.
+
+## (Optional) Compress executable with `upx`
+
+Run:
+```bash
+$ mill termcolors.upx
+```
+to compress the application executable produced by `termcolors.nativeLink` by [upx](https://upx.github.io/).
+This requires having [upx](https://github.com/upx/upx/releases/latest) installed.
+
+The output is stored in `./out/termcolors/upx/dest/term-colors`.
